@@ -1,7 +1,20 @@
-# Vue 3 + Vite
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+# 这是一个学习本人学习前端技术的代码
+>使用Vue3+Ts开发,一些学习的小demo,并且这个项目是通过jenkins自动部署,也算是一个学习的过程
 
-## Recommended IDE Setup
+## 首页
+> 自己二次封装的一个工作流引擎组件,git地址:https://github.com/Yang1998-jiale/bpmn-vue-temp
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## Vue3-源码
+
+### Proxy 学习
+
+> proxy 页面
+
+## Three.js 学习
+
+### 基础
+> three页面
+### 3D模拟看房小demo
+> three3D
+
