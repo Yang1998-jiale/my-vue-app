@@ -2,7 +2,7 @@
  * @Author: yjl
  * @Date: 2023-10-16 10:30:39
  * @LastEditors: yjl
- * @LastEditTime: 2024-04-17 15:57:47
+ * @LastEditTime: 2024-04-17 16:20:17
  * @Description: 描述
 -->
 <template>
@@ -14,6 +14,8 @@
 </template>
 <script lang="ts" setup>
 import { onMounted } from "vue";
+
+
 import { BpmnCanvas } from "bpmn-vue-temp";
 onMounted(() => {});
 </script>
