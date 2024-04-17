@@ -8,15 +8,13 @@
 // import HelloWorld from "./components/HelloWorld.vue";
 import Header from "./components/Layout/Header.vue";
 import { regionData, codeToText } from "element-china-area-data";
-console.log(regionData);
-console.log(codeToText["11"]);
 </script>
 
 <template>
   <div class="page">
     <Header class="header" />
     <div class="center">
-      <RouterView></RouterView>
+      <RouterView class="router-view"></RouterView>
     </div>
   </div>
 </template>
@@ -38,6 +36,10 @@ console.log(codeToText["11"]);
     width: 100%;
     padding: 16px;
     box-sizing: border-box;
+  }
+
+  .router-view{
+    height: 100%;
   }
 }
 </style>

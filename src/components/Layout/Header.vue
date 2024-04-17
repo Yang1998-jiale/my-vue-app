@@ -2,7 +2,7 @@
  * @Author: yjl
  * @Date: 2023-10-16 10:30:39
  * @LastEditors: yjl
- * @LastEditTime: 2024-03-15 14:51:06
+ * @LastEditTime: 2024-04-17 16:39:38
  * @Description: 描述
 -->
 <template>
@@ -28,7 +28,7 @@ let state = reactive<any>({
 onMounted(() => {
   // console.log(routerPath);
 
-  state.current = [route.path == "/" ? "proxy" : route.name];
+  state.current = [route.path == "/" ? "home" : route.name];
 });
 
 function routerChange(path) {

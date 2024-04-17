@@ -2,7 +2,7 @@
  * @Author: yjl
  * @Date: 2023-10-16 10:30:39
  * @LastEditors: yjl
- * @LastEditTime: 2024-04-17 16:23:34
+ * @LastEditTime: 2024-04-17 16:38:09
  * @Description: 描述
 -->
 <template>
@@ -17,7 +17,7 @@ import { BpmnCanvas } from "bpmn-vue-temp";
 </script>
 <style scoped>
 .box {
-  width: 1000px;
-  height: 1000px;
+  width: 100%;
+  height: 100%;
 }
 </style>

@@ -2,7 +2,7 @@
  * @Author: yjl
  * @Date: 2023-10-16 10:30:39
  * @LastEditors: yjl
- * @LastEditTime: 2024-03-15 14:43:25
+ * @LastEditTime: 2024-04-17 16:39:15
  * @Description: 描述
  */
 import { createRouter, createWebHashHistory, createWebHistory } from "vue-router"
@@ -10,7 +10,7 @@ import type { App } from 'vue'
 const defaultRouter = [
     {
         path: '/',
-        redirect: '/proxy'
+        redirect: '/home'
     },
 ]
 export const routerPath = [
